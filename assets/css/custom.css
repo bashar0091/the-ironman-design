@@ -1,6 +1,6 @@
 :root {
-    --color_1: #00C2CB;
-    --color_2: #4CD4DA;
+    --color_1: #0B519F;
+    --color_2: #0975EE;
     --color_3: #F2F2F2;
     --white: #fff;
 }
@@ -24,6 +24,9 @@
     margin-bottom: 10px;
     margin-left: -5px;
 }
+.back_btn:hover {
+    background-color: var(--color_2);
+}
 .back_btn svg {
     height: 30px;
     width: 100%;
@@ -37,14 +40,12 @@
     font-size: 13px;
     font-weight: 500;
 }
-.wrapper_auto {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
 .icon_sm  svg {
     height: 16px;
     width: 100%;
+}
+.login_form {
+	margin-top: 50px;
 }
 .form_group{
 	margin-bottom: 10px;
@@ -93,7 +94,12 @@
 	color: var(--color_1);
 }
 .footer_bar {
-    padding-bottom: 20px;
+	padding: 20px 0;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+    background-color: var(--color_3);
 }
 .title_bolder {
     font-weight: 700;
@@ -102,7 +108,7 @@
     font-weight: 600;
 }
 .register_form {
-    margin-top: -40px;
+    margin-top: -20px;
 }
 .header_bar_sm {
     padding: 15px 0 35px 0;
@@ -116,4 +122,62 @@
 .text_link_fade a {
 	text-decoration: underline;
 	color: var(--color_1);
+}
+.menu_bar {
+	padding-bottom: 15px;
+	background: #fff;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	box-shadow: 0px -10px 10px #e8e8e8;
+}
+.logo a {
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	background: var(--color_1);
+	border-radius: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 4px solid #fff;
+	box-shadow: 0px 10px 20px 5px #D0E0F2;
+	margin-top: -16px;
+    margin-left: 10px;
+    overflow: hidden;
+}
+.logo img {
+    width: 100%;
+}
+.menu {
+    width: 100%;
+}
+.menu ul {
+    padding-left: 0;
+    margin-bottom: 0;
+    font-size: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.menu ul li a {
+    font-size: 10px;
+    text-decoration: none;
+    color: var(--bs-body-color);
+    margin-top: 10px;
+    display: block;
+}
+.bottom_menu {
+	display: flex;
+    gap: 10px;
+}
+.menu ul span {
+	display: block;
+}
+.menu ul svg {
+    height: 18px;
+    width: 100%;
+}
+.gap {
+    height: 70px;
 }
