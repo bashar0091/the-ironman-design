@@ -43,7 +43,7 @@
     justify-content: space-between;
 }
 .icon_sm  svg {
-    height: 20px;
+    height: 16px;
     width: 100%;
 }
 .form_group{
@@ -58,7 +58,7 @@
 	font-size: 13px;
 	font-weight: 300;
     border-radius: 16px;
-    padding: 10px 15px;
+    padding: 8px 15px;
 }
 .form_group .form-control:focus {
     outline: none;
@@ -70,6 +70,9 @@
 	border: none;
 	font-size: 14px;
 	margin-top: 25px;
+}
+.btn_custom:hover {
+    background-color: var(--color_1);
 }
 .text_link a {
     text-decoration: none;
@@ -91,4 +94,26 @@
 }
 .footer_bar {
     padding-bottom: 20px;
+}
+.title_bolder {
+    font-weight: 700;
+}
+.text_bold {
+    font-weight: 600;
+}
+.register_form {
+    margin-top: -40px;
+}
+.header_bar_sm {
+    padding: 15px 0 35px 0;
+}
+.text_link_fade {
+    font-size: 14px;
+    font-weight: 300;
+    display: flex;
+    gap: 15px;
+}
+.text_link_fade a {
+	text-decoration: underline;
+	color: var(--color_1);
 }
