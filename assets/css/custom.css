@@ -253,3 +253,70 @@
 .arrow_icon {
     margin-left: auto;
 }
+.edit_profile_header {
+    border-bottom-left-radius: 15px;
+    padding: 15px 0 15px 0;
+}
+.edit_profile_form {
+    margin-top: 15px;
+}
+.edit_profile_image img {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.edit_profile_image a {
+    position: relative;
+}
+.img_upload {
+	width: 18px;
+	height: 18px;
+	overflow: hidden;
+	background: var(--color_1);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 4px;
+	border-radius: 100px;
+    position: absolute;
+    right: 0px;
+    bottom: -8px;
+}
+.address_item {
+	display: flex;
+	background: #fff;
+	border-radius: 10px;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+.big_icon {
+    background: #D3E8FF;
+    border-radius: 10px;
+    padding: 5px 12px;
+}
+.big_icon svg {
+	width: 100%;
+	height: 50px;
+}
+.location_text h2 {
+    font-size: 17px;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+.location_text p {
+	font-size: 12px;
+	font-weight: 300;
+	margin-bottom: 0;
+}
+.edit_address {
+    padding: 0 10px;
+}
+.edit_address svg {
+    height: 18px;
+    width: 100%;
+}
+.address_list {
+	padding-top: 20px;
+}
+.location_text {
+	padding: 5px 0;
+}
