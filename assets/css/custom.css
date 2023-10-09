@@ -438,7 +438,7 @@
 	color: var(--white);
 }
 .bg_primary {
-     background-color: var(--color_1);
+     background-color: var(--color_1) !important;
 }
 .service_item {
     padding: 5px;
@@ -481,6 +481,7 @@
 }
 .checkout_footer {
     padding: 5px 0 0 0;
+    z-index: 99;
 }
 .gap_3 {
     height: 63px;
@@ -508,4 +509,50 @@
 	border-radius: 100px;
 	line-height: 15px;
 	color: #fff;
+}
+.checkout_header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.gap_4 {
+    height: 75px;
+}
+.check_itme {
+    border-radius: 15px;
+    padding: 10px;
+}
+.price {
+    font-size: 12px;
+    margin-right: 8px;
+    color: var(--color_1);
+}
+.check_title {
+	font-size: 13px;
+	color: #000;
+	font-weight: 600;
+}
+.pick_area {
+	display: block;
+	width: 100%;
+	background: #fff;
+	border-radius: 15px;
+	padding: 20px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 13px;
+	color: #000;
+}
+.addition_service {
+    background: #fff;
+    padding: 10px;
+    border-radius: 15px;
+}
+.text_xs {
+	font-size: 11px;
+	margin-bottom: 0;
+}
+.addition_service label {
+	font-size: 12px;
 }
