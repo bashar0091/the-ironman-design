@@ -320,3 +320,79 @@
 .location_text {
 	padding: 5px 0;
 }
+.profile_avatar_home {
+    margin-top: 0;
+    width: 40px;
+    height: 40px;
+}
+.header_bar_home {
+    padding: 15px 0 70px 0;
+}
+.language_bar {
+    background: var(--white);
+    border-radius: 20px;
+    padding: 2px;
+    display: inline-flex;
+    gap: 2px;
+}
+.language_bar a {
+    border-radius: 10px;
+    padding: 0px 8px;
+    color: var(--color_1);
+    text-decoration: none;
+    font-size: 14px;
+}
+.language_bar a.active {
+    color: var(--white);
+    background: var(--color_1);
+}
+.promo_card img {
+    height: 90px;
+    border-radius: 15px;
+    object-fit: cover;
+    margin-left: 15px;
+}
+.promo_card {
+    display: flex;
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+.promo_card::-webkit-scrollbar {
+    height: 0;
+}
+.top_card {
+    margin-top: -55px;
+}   
+.service_card {
+    background: var(--white);
+    border-radius: 15px;
+    margin-left: 15px;
+    text-align: center;
+    padding: 5px 10px;
+}
+.service_card h2 {
+    font-size: 18px;
+    color: var(--bs-black);
+    margin-bottom: 0;
+    line-height: 15px;
+}
+.service_card a {
+    text-decoration: none;
+}
+.service_btn {
+	background-color: var(--color_1);
+	padding: 3px 10px;
+	font-size: 13px;
+	display: inline-block;
+	color: var(--white);
+	border-radius: 100px;
+	margin: 12px 0;
+}
+.service_card img {
+	margin-left: 0;
+}
+.multi_input {
+    display: flex;
+    gap: 6px;
+    box-shadow: none;
+}
